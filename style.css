@@ -246,3 +246,10 @@ textarea:focus {
     justify-content: center;
     align-items: center;
 }
+
+.legs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 5px;
+}
