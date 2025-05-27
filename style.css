@@ -130,3 +130,14 @@ textarea:focus {
     display: flex;
     gap: 10px;
 }
+
+.action-button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+}
