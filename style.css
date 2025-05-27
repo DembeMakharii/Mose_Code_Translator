@@ -270,3 +270,17 @@ textarea:focus {
     0%, 48%, 52%, 100% { opacity: 1; }
     50% { opacity: 0.3; }
 }
+
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    .actions {
+        flex-direction: column;
+    }
+}
