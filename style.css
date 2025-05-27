@@ -198,3 +198,12 @@ textarea:focus {
     position: relative;
     animation: float 3s ease-in-out infinite;
 }
+
+.head {
+    width: 60px;
+    height: 30px;
+    background-color: var(--r2-silver);
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    margin: 0 auto;
+}
