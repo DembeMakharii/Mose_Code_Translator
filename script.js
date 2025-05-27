@@ -122,3 +122,12 @@ toTextBtn.addEventListener('click', () => {
 });
 
 translateBtn.addEventListener('click', translate);
+
+playBtn.addEventListener('click', () => {
+    if (translationMode) {
+        const morse = textToMorse(inputText.value);
+        playMorseCode(morse);
+    } else {
+        playMorseCode(inputText.value);
+    }
+});
