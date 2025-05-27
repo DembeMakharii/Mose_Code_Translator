@@ -18,3 +18,4 @@ for (const key in morseCodeDict) {
 }
 
 const inputText = document.getElementById('inputText');
+const outputText = document.getElementById('outputText');
