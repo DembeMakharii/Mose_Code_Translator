@@ -16,3 +16,5 @@ const reverseMorseDict = {};
 for (const key in morseCodeDict) {
     reverseMorseDict[morseCodeDict[key]] = key;
 }
+
+const inputText = document.getElementById('inputText');
