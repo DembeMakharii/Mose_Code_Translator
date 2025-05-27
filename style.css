@@ -217,3 +217,11 @@ textarea:focus {
     top: 10px;
     animation: blink 5s infinite;
 }
+
+.eye:nth-child(1) {
+    left: 10px;
+}
+
+.eye:nth-child(2) {
+    right: 10px;
+}
