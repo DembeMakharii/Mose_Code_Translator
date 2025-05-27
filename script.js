@@ -56,3 +56,38 @@ function morseToText(morse) {
         return reverseMorseDict[code] || '';
     }).join('');
 }
+
+function playMorseCode(morse) {
+    const dotDuration = 100; // ms
+    const dashDuration = 300; // ms
+    const spaceDuration = 200; // ms
+    const charSpaceDuration = 300; // ms
+    
+    let time = 0;
+    
+    morse.split('').forEach(symbol => {
+        switch(symbol) {
+            case '.':
+                setTimeout(() => {
+                    morseSound.currentTime = 0;
+                    morseSound.play();
+                }, time);
+                time += dotDuration;
+                break;
+            case '-':
+                setTimeout(() => {
+                    morseSound.currentTime = 0;
+                    morseSound.play();
+                }, time);
+                time += dashDuration;
+                break;
+            case ' ':
+                time += charSpaceDuration;
+                break;
+            case '/':
+                time += spaceDuration;
+                break;
+        }
+        time += 100; // Small pause between symbols
+    });
+}
