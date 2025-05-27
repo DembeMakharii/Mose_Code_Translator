@@ -176,3 +176,12 @@ textarea:focus {
     border-radius: 5px;
     text-align: center;
 }
+
+.morse-char {
+    font-weight: bold;
+    color: var(--secondary);
+}
+
+.morse-code {
+    font-family: monospace;
+}
