@@ -120,3 +120,8 @@ textarea:focus {
     margin-bottom: 20px;
     transition: all 0.3s;
 }
+
+.translate-button:hover {
+    background-color: #1a5b9b;
+    transform: translateY(-2px);
+}
