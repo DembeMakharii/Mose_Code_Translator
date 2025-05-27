@@ -11,3 +11,8 @@ const morseCodeDict = {
     ':': '---...', ';': '-.-.-.', '=': '-...-', '+': '.-.-.', '-': '-....-',
     '_': '..--.-', '"': '.-..-.', '$': '...-..-', '@': '.--.-.', ' ': '/'
 };
+
+const reverseMorseDict = {};
+for (const key in morseCodeDict) {
+    reverseMorseDict[morseCodeDict[key]] = key;
+}
