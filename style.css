@@ -253,3 +253,10 @@ textarea:focus {
     gap: 20px;
     margin-top: 5px;
 }
+
+.leg {
+    width: 15px;
+    height: 20px;
+    background-color: var(--r2-silver);
+    border-radius: 0 0 5px 5px;
+}
