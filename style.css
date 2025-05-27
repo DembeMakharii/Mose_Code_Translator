@@ -207,3 +207,13 @@ textarea:focus {
     position: relative;
     margin: 0 auto;
 }
+
+.eye {
+    width: 10px;
+    height: 10px;
+    background-color: var(--imperial-red);
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    animation: blink 5s infinite;
+}
