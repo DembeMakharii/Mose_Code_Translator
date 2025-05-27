@@ -23,3 +23,5 @@ const toMorseBtn = document.getElementById('toMorse');
 const toTextBtn = document.getElementById('toText');
 const translateBtn = document.getElementById('translateBtn');
 const playBtn = document.getElementById('playBtn');
+const copyBtn = document.getElementById('copyBtn');
+const clearBtn = document.getElementById('clearBtn');
