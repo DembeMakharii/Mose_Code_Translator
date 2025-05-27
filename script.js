@@ -131,3 +131,9 @@ playBtn.addEventListener('click', () => {
         playMorseCode(inputText.value);
     }
 });
+
+copyBtn.addEventListener('click', () => {
+    outputText.select();
+    document.execCommand('copy');
+    alert('Copied to clipboard!');
+});
