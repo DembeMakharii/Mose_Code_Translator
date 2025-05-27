@@ -50,3 +50,9 @@ function textToMorse(text) {
         return morseCodeDict[char] || '';
     }).join(' ');
 }
+
+function morseToText(morse) {
+    return morse.split(' ').map(code => {
+        return reverseMorseDict[code] || '';
+    }).join('');
+}
