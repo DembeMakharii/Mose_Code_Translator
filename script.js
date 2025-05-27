@@ -91,3 +91,16 @@ function playMorseCode(morse) {
         time += 100; // Small pause between symbols
     });
 }
+
+function translate() {
+    const input = inputText.value.trim();
+    let output = '';
+    
+    if (translationMode) {
+        output = textToMorse(input);
+    } else {
+        output = morseToText(input);
+    }
+    
+    outputText.value = output;
+}
