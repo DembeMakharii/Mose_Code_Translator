@@ -141,3 +141,11 @@ textarea:focus {
     cursor: pointer;
     transition: all 0.3s;
 }
+
+.action-button:hover {
+    background-color: #555;
+}
+
+.action-button i {
+    margin-right: 5px;
+}
