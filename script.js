@@ -104,3 +104,11 @@ function translate() {
     
     outputText.value = output;
 }
+
+toMorseBtn.addEventListener('click', () => {
+    translationMode = true;
+    toMorseBtn.classList.add('active');
+    toTextBtn.classList.remove('active');
+    inputText.placeholder = 'Enter your message here...';
+    outputText.placeholder = 'Morse code will appear here...';
+});
