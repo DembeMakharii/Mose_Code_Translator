@@ -112,3 +112,11 @@ toMorseBtn.addEventListener('click', () => {
     inputText.placeholder = 'Enter your message here...';
     outputText.placeholder = 'Morse code will appear here...';
 });
+
+toTextBtn.addEventListener('click', () => {
+    translationMode = false;
+    toTextBtn.classList.add('active');
+    toMorseBtn.classList.remove('active');
+    inputText.placeholder = 'Enter Morse code here (separate letters with space, words with /)...';
+    outputText.placeholder = 'Text will appear here...';
+});
