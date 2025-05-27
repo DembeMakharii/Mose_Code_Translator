@@ -120,3 +120,5 @@ toTextBtn.addEventListener('click', () => {
     inputText.placeholder = 'Enter Morse code here (separate letters with space, words with /)...';
     outputText.placeholder = 'Text will appear here...';
 });
+
+translateBtn.addEventListener('click', translate);
