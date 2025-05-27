@@ -137,3 +137,8 @@ copyBtn.addEventListener('click', () => {
     document.execCommand('copy');
     alert('Copied to clipboard!');
 });
+
+clearBtn.addEventListener('click', () => {
+    inputText.value = '';
+    outputText.value = '';
+});
