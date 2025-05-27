@@ -88,3 +88,16 @@ mode-selector button.active {
 .input-area, .output-area {
     margin-bottom: 20px;
 }
+
+
+textarea {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid #444;
+    background-color: #222;
+    color: var(--light);
+    font-size: 1rem;
+    resize: vertical;
+    min-height: 100px;
+}
