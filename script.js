@@ -44,3 +44,9 @@ function initMorseChart() {
         morseChart.appendChild(item);
     });
 }
+
+function textToMorse(text) {
+    return text.toUpperCase().split('').map(char => {
+        return morseCodeDict[char] || '';
+    }).join(' ');
+}
