@@ -75,3 +75,8 @@ h1 {
     font-weight: bold;
     transition: all 0.3s;
 }
+
+mode-selector button.active {
+    background-color: var(--primary);
+    color: white;
+}
