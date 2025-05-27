@@ -80,3 +80,11 @@ mode-selector button.active {
     background-color: var(--primary);
     color: white;
 }
+
+.mode-selector button:first-child {
+    border-right: 1px solid var(--dark);
+}
+
+.input-area, .output-area {
+    margin-bottom: 20px;
+}
