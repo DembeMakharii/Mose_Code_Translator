@@ -142,3 +142,13 @@ clearBtn.addEventListener('click', () => {
     inputText.value = '';
     outputText.value = '';
 });
+
+initMorseChart();
+
+// Allow Enter key to trigger translation
+inputText.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter' && !e.shiftKey) {
+        e.preventDefault();
+        translate();
+    }
+});
