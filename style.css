@@ -157,3 +157,9 @@ textarea:focus {
     border-radius: 5px;
     border: 1px solid var(--secondary);
 }
+
+.morse-reference h3 {
+    color: var(--secondary);
+    margin-bottom: 10px;
+    text-align: center;
+}
