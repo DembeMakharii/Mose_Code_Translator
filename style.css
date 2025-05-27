@@ -76,7 +76,7 @@ h1 {
     transition: all 0.3s;
 }
 
-mode-selector button.active {
+.mode-selector button.active {
     background-color: var(--primary);
     color: white;
 }
@@ -88,7 +88,6 @@ mode-selector button.active {
 .input-area, .output-area {
     margin-bottom: 20px;
 }
-
 
 textarea {
     width: 100%;
@@ -186,6 +185,7 @@ textarea:focus {
     font-family: monospace;
 }
 
+/* R2-D2 Animation */
 .droid-container {
     display: flex;
     justify-content: center;
@@ -271,6 +271,7 @@ textarea:focus {
     50% { opacity: 0.3; }
 }
 
+/* Responsive design */
 @media (max-width: 600px) {
     .container {
         padding: 15px;
