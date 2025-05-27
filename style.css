@@ -125,3 +125,8 @@ textarea:focus {
     background-color: #1a5b9b;
     transform: translateY(-2px);
 }
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
