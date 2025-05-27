@@ -27,3 +27,5 @@ const copyBtn = document.getElementById('copyBtn');
 const clearBtn = document.getElementById('clearBtn');
 const morseSound = document.getElementById('morseSound');
 const morseChart = document.getElementById('morseChart');
+
+let translationMode = true;
