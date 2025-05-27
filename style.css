@@ -163,3 +163,9 @@ textarea:focus {
     margin-bottom: 10px;
     text-align: center;
 }
+
+#morseChart {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+}
