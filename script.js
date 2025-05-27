@@ -29,3 +29,18 @@ const morseSound = document.getElementById('morseSound');
 const morseChart = document.getElementById('morseChart');
 
 let translationMode = true;
+
+function initMorseChart() {
+    const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.,?\'!/()&:;=+-_"$@'.split('');
+    morseChart.innerHTML = '';
+    
+    letters.forEach(char => {
+        const item = document.createElement('div');
+        item.className = 'morse-item';
+        item.innerHTML = `
+            <div class="morse-char">${char}</div>
+            <div class="morse-code">${morseCodeDict[char] || ' '}</div>
+        `;
+        morseChart.appendChild(item);
+    });
+}
