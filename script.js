@@ -19,3 +19,5 @@ for (const key in morseCodeDict) {
 
 const inputText = document.getElementById('inputText');
 const outputText = document.getElementById('outputText');
+const toMorseBtn = document.getElementById('toMorse');
+const toTextBtn = document.getElementById('toText');
