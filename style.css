@@ -1,11 +1,11 @@
 :root {
     --primary: #2a75bb; /* Star Wars blue */
-    --secondary: #00d9ff; /* Star Wars gold */
+    --secondary:#00d9ff; /* Star Wars gold */
     --dark: #121212;
     --light: #f8f8f8;
     --r2-blue: #3a75c4;
     --r2-silver: #d0d0d0;
-    --imperial-red: #ed1c24;
+    --imperial-red: #ed1caece;
 }
 
 * {
